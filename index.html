@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>نمایش قرار آشنا DateFlo، در عکس‌ها</title>
+<meta name="description" content="بازخوانی تصویری از شب نمایش قرار آشنای DateFlo. آماده‌سازی، پشت صحنه، سه دور، تماشاگران و جزئیات شب، به ترتیب.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="نمایش قرار آشنا DateFlo، در عکس‌ها">
+<meta property="og:description" content="بازخوانی تصویری شب. آماده‌سازی، پشت صحنه، سه دور، تماشاگران و جزئیات شب.">
+<meta property="og:image" content="https://dateflo.comhttps://dateflo.com/images/blind-date-show/full/06-format-cardboard-ynessa-stairs.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="نمایش قرار آشنا DateFlo، در عکس‌ها">
+<meta name="twitter:image" content="https://dateflo.comhttps://dateflo.com/images/blind-date-show/full/06-format-cardboard-ynessa-stairs.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&family=Kaushan+Script&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-dark: #1a0a10;
+    --bg-mid: #2d1320;
+    --bg-card: rgba(255,255,255,.04);
+    --rose: #e05780;
+    --rose-deep: #c0406a;
+    --rose-light: #ff6b9d;
+    --gold: #f9ca24;
+    --gold-dark: #d4a810;
+    --text: #fff;
+    --text-soft: rgba(255,255,255,.85);
+    --text-muted: rgba(255,255,255,.6);
+    --glass: rgba(255,255,255,.06);
+    --glass-border: rgba(255,255,255,.1);
+    --border: rgba(255,255,255,.08);
+    --paper: #fdfaf6;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Vazirmatn', system-ui, -apple-system, sans-serif;
+    background: var(--bg-dark);
+    color: var(--text);
+    line-height: 1.85;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 32px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Top nav back to home */
+  .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(26,10,16,0.88);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--glass-border);
+  }
+  .topbar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+  .topbar .logo {
+    font-family: 'Kaushan Script', 'Playfair Display', serif;
+    font-size: 1.6rem;
+    color: var(--rose);
+    text-decoration: none;
+  }
+  .topbar .back {
+    color: var(--text-soft);
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    transition: border .2s, color .2s;
+  }
+  .topbar .back:hover { color: var(--rose); border-color: var(--rose); }
+
+  /* Hero */
+  .hero {
+    padding: 96px 0 56px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+  .hero .eyebrow {
+    display: inline-block;
+    font-size: 0.85rem;
+    color: var(--rose);
+    font-weight: 700;
+    background: rgba(224,87,128,0.12);
+    padding: 8px 18px;
+    border-radius: 999px;
+    margin-bottom: 24px;
+  }
+  .hero h1 {
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: clamp(2.2rem, 5vw, 3.6rem);
+    font-weight: 800;
+    margin-bottom: 16px;
+    line-height: 1.3;
+  }
+  .hero h1 em { color: var(--rose); font-style: normal; }
+  .hero p {
+    color: var(--text-soft);
+    font-size: 1.05rem;
+    max-width: 660px;
+    margin: 0 auto 30px;
+    line-height: 1.7;
+  }
+  .hero-meta {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+  }
+  .hero-meta div strong {
+    display: block;
+    color: var(--gold);
+    font-weight: 600;
+    font-size: 0.78rem;
+    margin-bottom: 4px;
+  }
+
+  /* Chapter nav */
+  .chapter-nav {
+    padding: 32px 0 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  .chapter-nav-inner {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 8px 0;
+    -webkit-overflow-scrolling: touch;
+  }
+  .chapter-nav-inner::-webkit-scrollbar { height: 0; }
+  .chapter-nav a {
+    flex: 0 0 auto;
+    color: var(--text-soft);
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    white-space: nowrap;
+    transition: background .2s, color .2s, border .2s;
+  }
+  .chapter-nav a:hover {
+    background: var(--rose);
+    border-color: var(--rose);
+    color: #fff;
+  }
+
+  /* Each chapter / category */
+  .chapter {
+    padding: 80px 0;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+  }
+  .chapter:nth-child(even) { background: rgba(255,255,255,0.015); }
+  .chapter-header {
+    text-align: center;
+    margin-bottom: 56px;
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 32px;
+    position: relative;
+    z-index: 1;
+  }
+  .chapter-eyebrow {
+    display: inline-block;
+    font-size: 0.82rem;
+    color: var(--rose);
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+  .chapter-header h2 {
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+    font-weight: 800;
+    margin-bottom: 12px;
+    line-height: 1.4;
+  }
+  .chapter-header p {
+    color: var(--text-soft);
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  /* picture element is transparent to layout, so <img> behaves the same as before */
+  .polaroid picture { display: contents; }
+
+  /* Polaroid grid (scrapbook board) */
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 36px 28px;
+    padding: 24px 8px 8px;
+  }
+
+  /* Polaroid */
+  .polaroid {
+    position: relative;
+    background: var(--paper);
+    padding: 16px 16px 12px;
+    box-shadow:
+      0 22px 44px rgba(0,0,0,0.55),
+      0 6px 12px rgba(0,0,0,0.35);
+    width: 290px;
+    transition: transform .35s cubic-bezier(.22,1,.36,1), z-index 0s;
+    z-index: 1;
+    cursor: zoom-in;
+  }
+  .polaroid:hover {
+    transform: scale(1.04) rotate(0deg) !important;
+    z-index: 30;
+  }
+  .polaroid .photo {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    background: #1a1a1a;
+    overflow: hidden;
+    display: block;
+  }
+  .polaroid .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .polaroid figcaption {
+    color: #2a2a2a;
+    padding: 14px 6px 6px;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 1rem;
+    line-height: 1.35;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    text-align: center;
+    min-height: 64px;
+  }
+
+  /* Tape — pink washi */
+  .polaroid::before {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    width: 110px;
+    height: 28px;
+    transform: translateX(-50%) rotate(-3deg);
+    background: linear-gradient(180deg,
+      rgba(255,184,212,0.82) 0%,
+      rgba(255,150,190,0.78) 50%,
+      rgba(255,184,212,0.82) 100%);
+    border-left: 1px dashed rgba(160,60,100,0.22);
+    border-right: 1px dashed rgba(160,60,100,0.22);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.22);
+    z-index: 2;
+  }
+
+  /* Vary rotation per polaroid in a board */
+  .board .polaroid:nth-child(8n+1) { transform: rotate(-3deg); }
+  .board .polaroid:nth-child(8n+2) { transform: rotate(2deg); }
+  .board .polaroid:nth-child(8n+3) { transform: rotate(-1.5deg); }
+  .board .polaroid:nth-child(8n+4) { transform: rotate(3.5deg); }
+  .board .polaroid:nth-child(8n+5) { transform: rotate(-2.5deg); }
+  .board .polaroid:nth-child(8n+6) { transform: rotate(1.2deg); }
+  .board .polaroid:nth-child(8n+7) { transform: rotate(-4deg); }
+  .board .polaroid:nth-child(8n+8) { transform: rotate(2.6deg); }
+
+  /* Vary tape position and tilt per polaroid */
+  .board .polaroid:nth-child(5n+1)::before { top: -14px; left: 28%; transform: rotate(-8deg); }
+  .board .polaroid:nth-child(5n+2)::before { top: -12px; left: 50%; transform: translateX(-50%) rotate(2deg); }
+  .board .polaroid:nth-child(5n+3)::before { top: -14px; left: 70%; transform: rotate(6deg); }
+  .board .polaroid:nth-child(5n+4)::before { top: -10px; left: 50%; transform: translateX(-50%) rotate(-3deg); width: 130px; }
+  .board .polaroid:nth-child(5n+5)::before { top: -14px; left: 35%; transform: rotate(4deg); width: 95px; }
+
+  /* ═══════════ FOOTER ═══════════ */
+  footer {
+    padding: clamp(32px,5vh,48px) clamp(20px,4vw,40px);
+    border-top: 1px solid var(--glass-border);
+    text-align: center;
+  }
+  .footer-logo {
+    font-family: 'Kaushan Script', 'Playfair Display', serif;
+    font-size: 1.625rem;
+    font-weight: 400;
+    color: var(--rose);
+    margin-bottom: 8px;
+  }
+  footer p { font-size: .85rem; color: var(--text-muted); }
+  footer a { color: var(--text-muted); text-decoration: none; }
+  footer a:hover { color: var(--rose); }
+  .site-footer-grid {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 32px;
+    text-align: left;
+    margin-bottom: clamp(28px, 4vh, 40px);
+  }
+  @media (max-width: 520px) {
+    .site-footer-grid { grid-template-columns: 1fr !important; text-align: center; gap: 24px; }
+    .site-footer-grid .footer-brand { text-align: center; }
+    .site-footer-grid .footer-brand p { max-width: none !important; margin: 0 auto; }
+    .footer-link-cols { display: grid !important; grid-template-columns: 1fr 1fr 1fr; gap: 16px; text-align: center; }
+  }
+
+  /* Responsive */
+  @media (max-width: 720px) {
+    .container { padding: 0 20px; }
+    .topbar-inner { padding: 14px 20px; }
+    .hero { padding: 64px 0 40px; }
+    .chapter { padding: 56px 0; }
+    .chapter-header { padding: 0 20px; margin-bottom: 36px; }
+    .board { gap: 32px 20px; }
+    .polaroid { width: 260px; }
+  }
+  @media (max-width: 420px) {
+    .polaroid { width: 86vw; max-width: 320px; }
+  }
+
+  /* Lightbox */
+  .lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.94);
+    z-index: 9999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 56px 24px 90px;
+    cursor: zoom-out;
+  }
+  .lightbox.open { display: flex; }
+  .lightbox img {
+    max-width: 100%;
+    max-height: 78vh;
+    border-radius: 6px;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
+    cursor: default;
+    background: #1a1a1a;
+  }
+  .lightbox .lb-caption {
+    position: absolute;
+    bottom: 32px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #f5f5f5;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    padding: 0 28px;
+    max-width: 760px;
+    margin: 0 auto;
+    font-weight: 500;
+  }
+  .lightbox .lb-close {
+    position: absolute;
+    top: 22px;
+    right: 26px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.14);
+    border: none;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background .2s;
+  }
+  .lightbox .lb-close:hover {
+    background: rgba(255, 255, 255, 0.26);
+  }
+</style>
+</head>
+<body>
+
+<!-- Top bar -->
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a href="#" class="logo">DateFlo</a>
+  </div>
+</nav>
+
+<!-- Hero -->
+<header class="hero">
+  <div class="container">
+    <span class="eyebrow">بازخوانی تصویری</span>
+    <h1>DateFlo <em>نمایش قرار آشنا</em></h1>
+    <p>چیزی که در حال دیدنش هستید، یک شب در حیاط خانه‌ای در سن‌دیه‌گو است. ما یک نمایش زندهٔ قرار آشنا برگزار کردیم با سه دور، که هر دور یک شکل متفاوت از چشم‌بند داشت. یک جعبهٔ مقوایی جای چشم‌بند را گرفت، یک بار نوشیدنی غیرالکلی با یخ‌های ال‌ای‌دی تمام شب روشن بود، دستگاه پشمک هیچ وقت خاموش نشد، و خود تماشاگران نصف سوال‌ها را پرسیدند. هر عکسی که در ادامه می‌بینید، از همان شب است و به ترتیب چیده شده.</p>
+  </div>
+</header>
+
+<!-- Chapter nav -->
+<nav class="chapter-nav">
+  <div class="container">
+    <div class="chapter-nav-inner">
+      <a href="#before">۱ &middot; قبل از نمایش</a>
+      <a href="#round-one">۲ &middot; دور اول</a>
+      <a href="#round-two">۳ &middot; دور دوم</a>
+      <a href="#round-three">۴ &middot; دور سوم</a>
+      <a href="#around">۵ &middot; حاشیه‌های شب</a>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ═══════════ BEFORE THE SHOW ═══════════ -->
+<section class="chapter" id="before">
+  <div class="chapter-header">
+    <span class="chapter-eyebrow">فصل یکم از پنج</span>
+    <h2>قبل از نمایش</h2>
+    <p>یک ساعت قبل از باز شدن درها. از اتاق گرین‌روم و دستشویی که آن شب نقش اتاق انتظار را داشت، تا لحظه‌ای که اولین تماشاگرها از پله‌ها به سمت حیاط پشتی پایین آمدند.</p>
+  </div>
+  <div class="container">
+    <div class="board">
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/28-backstage-may-qudsi-rehearsing.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/28-backstage-may-qudsi-rehearsing.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>می و قدسی دارند قبل از باز شدن درها متن نمایش را مرور می‌کنند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/43-setup-may-laptop.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/43-setup-may-laptop.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>می قبل از باز شدن درها، روی لپ‌تاپ متنش را مرور می‌کند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/50-host-qudsi.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/50-host-qudsi.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>قدسی، مجری ما، چند دقیقه قبل از رفتن روی صحنه.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/46-crew-host-ari.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/46-crew-host-ari.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>قدسی و آری در حال آماده‌سازی، روند کلی نمایش را مرور می‌کنند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/44-host-may.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/44-host-may.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>می، هم‌مجری ما، آمادهٔ آن شب.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/45-crew-ari-may.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/45-crew-ari-may.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>آری و می، هم‌مجری ما، آرام قبل از باز شدن درها.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/48-crew-domingo.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/48-crew-domingo.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>دومینگو، فیلم‌بردار ما، در حال کار برای آن شب.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/49-crew-walker-laptop.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/49-crew-walker-laptop.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>واکر مسئول صدا، قبل از شروع نمایش میکروفون‌ها را تنظیم می‌کند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/33-details-cotton-candy-machine.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/33-details-cotton-candy-machine.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>برایان و جیکوب در حال آوردن دستگاه پشمک.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/42-setup-cotton-candy-2.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/42-setup-cotton-candy-2.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>دستگاه پشمک ما، در حال قرار گرفتن سر جایش.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/34-details-mic-on-chair.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/34-details-mic-on-chair.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>میکروفون مجری روی یک صندلی، آمادهٔ شروع نمایش.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/24-backstage-alex-green-room.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/24-backstage-alex-green-room.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>الکس در گرین‌روم، منتظر دور اول.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/26-backstage-ynessa-green-room.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/26-backstage-ynessa-green-room.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>اینسا در گرین‌روم، قبل از دور اول.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/29-backstage-ynessa-eris-green-room.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/29-backstage-ynessa-eris-green-room.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>اینسا و اریس در گرین‌روم، قبل از دورهای خودشان.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/41-backstage-ynessa-eris-horiz.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/41-backstage-ynessa-eris-horiz.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>اینسا و اریس در گرین‌روم، در قاب افقی.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/40-backstage-camilo-alex.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/40-backstage-camilo-alex.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>کامیلو و الکس، در گرین‌روم وقت تلف می‌کنند تا نوبتشان برسد.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/51-backstage-qudsi-alex.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/51-backstage-qudsi-alex.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>قدسی قبل از دور اول، به الکس روحیه می‌دهد.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/25-backstage-cameron-cologne.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/25-backstage-cameron-cologne.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>کمرون قبل از ورودش به دور دوم، عطر می‌زند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/01-reveal-eris-blindfold-before-stairs.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/01-reveal-eris-blindfold-before-stairs.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>اریس بالای پله‌ها، چشم‌بند در دست، چند ثانیه تا دور دوم.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/27-backstage-jimmy-green-room.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/27-backstage-jimmy-green-room.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>جیمی ساندیز در گرین‌روم، منتظر علامت ورود به دور سوم.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/47-arrival-audience-stairs.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/47-arrival-audience-stairs.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>اولین مهمان‌ها روی پله‌ها، قبل از شروع نمایش با آری مصاحبه می‌کنند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/23-audience-couple-stairs.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/23-audience-couple-stairs.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>یک زوج که تازه رسیده‌اند، در حال پایین آمدن به سمت حیاط پشتی.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/22-audience-before-show.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/22-audience-before-show.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>تماشاگران ما قبل از شروع نمایش، دور میزهای بلند مستقر می‌شوند.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ ROUND ONE: THE BLINDFOLDED GUY ═══════════ -->
+<section class="chapter" id="round-one">
+  <div class="chapter-header">
+    <span class="chapter-eyebrow">فصل دوم از پنج</span>
+    <h2>دور اول: پسرِ چشم‌بسته</h2>
+    <p>الکس روی صحنه، چشم‌بسته، در حالی که تماشاگران نگاه می‌کردند به سوال‌ها جواب می‌داد. بعد اینسا را پایین آوردیم و او هم به سوال‌های خودش جواب داد، در حالی که الکس ساکت ماند. در پایان، رأی نهایی با شست بالا و شست پایین.</p>
+  </div>
+  <div class="container">
+    <div class="board">
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/06-format-cardboard-ynessa-stairs.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/06-format-cardboard-ynessa-stairs.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>اینسا زیر جعبهٔ مقوایی، چشم‌بند کم‌خرج ما، از پله‌ها پایین می‌آید.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/08-format-cardboard-ynessa.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/08-format-cardboard-ynessa.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>اینسا زیر مقوا، نمای نزدیک از چشم‌بند ورودی.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/09-format-stage-from-back.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/09-format-stage-from-back.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>از پشت سالن، تمام سرها به سمت جلو.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/10-format-round1-angle.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/10-format-round1-angle.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>دور اول روی صحنه، از زاویهٔ کناری.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/62-round1-alex-4oclock.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/62-round1-alex-4oclock.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>الکس از زاویه‌ای دیگر، در میانهٔ دور.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/63-round1-qudsi-asks-couple.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/63-round1-qudsi-asks-couple.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>مجری ما در حال آماده کردن سوال بعدی.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/64-round1-qudsi-alex-ynessa.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/64-round1-qudsi-alex-ynessa.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>قدسی روی صحنه با الکس و اینسا، در میانهٔ دور.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/65-round1-ynessa-spicy.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/65-round1-ynessa-spicy.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>اینسا یک جواب بازیگوش و دلبرانه به الکس می‌دهد.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/66-round1-ynessa-laughs-alex.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/66-round1-ynessa-laughs-alex.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>الکس همان خنده‌ای را گرفت که می‌خواست.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/04-reveal-round1-after-blindfold.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/04-reveal-round1-after-blindfold.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>چشم‌بندها برداشته شد. الکس و اینسا برای اولین بار همدیگر را می‌بینند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/60-round1-alex-ynessa-handshake.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/60-round1-alex-ynessa-handshake.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>یک دست دادن مودبانه، بلافاصله بعد از این که هم را دیدند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/61-round1-alex-hands-on-ynessa.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/61-round1-alex-hands-on-ynessa.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>الکس جلوتر می‌رود تا اینسا را از نزدیک‌تر ببیند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/17-reaction-ynessa-shock-thumbs.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/17-reaction-ynessa-shock-thumbs.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>رأی نهایی دور اول که جور درنیامد. الکس گفت نه. اینسا گفت بله.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/67-round1-alex-boots.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/67-round1-alex-boots.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>چکمه‌های الکس، تنها جزئیات لباسی که لازم داشتید.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/68-round1-ynessa-crowd.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/68-round1-ynessa-crowd.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>اینسا برگشته بین تماشاگران، دور اول پشت سر.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ ROUND TWO: TWO GUYS COMPETING ═══════════ -->
+<section class="chapter" id="round-two">
+  <div class="chapter-header">
+    <span class="chapter-eyebrow">فصل سوم از پنج</span>
+    <h2>دور دوم: دو پسر در رقابت</h2>
+    <p>کمرون و کامیلو بدون چشم‌بند روی صحنه. اریس را چشم‌بسته پایین آوردیم تا هیچ‌کدام از پسرها را نبیند. بقیهٔ دور این بود که هر دو با سوال، شوخی، و کلی نمایش بازو، تلاش کردند نظر اریس را به خودشان جلب کنند.</p>
+  </div>
+  <div class="container">
+    <div class="board">
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/11-format-cameron-stairs.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/11-format-cameron-stairs.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>کمرون را برای دور دوم پایین می‌فرستیم.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/80-round2-cameron-portrait-1.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/80-round2-cameron-portrait-1.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>کمرون در حال پایین آمدن از پله‌ها برای دور دوم، عکس پرتره.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/93-round2-cameron-portrait-2.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/93-round2-cameron-portrait-2.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>یک پرترهٔ دیگر از کمرون قبل از دور دوم.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/07-format-cardboard-eris.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/07-format-cardboard-eris.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>اریس زیر مقوای ما، به سمت دور خودش.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/94-round2-eris-blindfold-camilo.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/94-round2-eris-blindfold-camilo.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>چشم‌بند روی چشم. کامیلو دو قدمی او، و او اصلاً خبر ندارد.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/76-round2-qudsi-asks-guys.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/76-round2-qudsi-asks-guys.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>قدسی یک سوال را به سمت پسرها پرتاب می‌کند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/74-round2-may-asks-eris-camilo.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/74-round2-may-asks-eris-camilo.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>می، هم‌مجری ما، از اریس و کامیلو سوال می‌پرسد.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/83-round2-eris-asks-both.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/83-round2-eris-asks-both.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>خود اریس از پسرها سوال می‌پرسد.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/84-round2-eris-asks-camilo.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/84-round2-eris-asks-camilo.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>اریس و کامیلو، در میانهٔ سوال.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/73-round2-camilo-cu-answering.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/73-round2-camilo-cu-answering.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>کامیلو در حال جواب دادن، نمای نزدیک.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/75-round2-camilo-answering-2.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/75-round2-camilo-answering-2.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>کامیلو جواب سوال اریس را می‌دهد، در حالی که قدسی نگاه می‌کند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/82-round2-camilo-alone.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/82-round2-camilo-alone.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>کامیلو تنها روی صحنه، در میانهٔ جواب.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/81-round2-cameron-answering-trio.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/81-round2-cameron-answering-trio.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>نوبت کمرون، قدسی و کامیلو هم در قاب.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/79-round2-cameron-answers-audience.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/79-round2-cameron-answers-audience.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>کمرون جواب یک سوال از تماشاگران را می‌دهد.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/71-round2-cameron-talks-eris-looks.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/71-round2-cameron-talks-eris-looks.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>اریس کمی به جلو خم می‌شود تا جواب کمرون را خوب بشنود.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/72-round2-camilo-singing.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/72-round2-camilo-singing.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>کامیلو یکی از جواب‌هایش به سوال اریس را خواند. بدون برنامه‌ریزی.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/70-round2-eris-middle-back.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/70-round2-eris-middle-back.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>هر دو پسر پشت به اریس، اریس وسطشان، هنوز نمی‌داند کی به کی است.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/14-reaction-eris-feels-camilo.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/14-reaction-eris-feels-camilo.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>اریس با دست‌هایش سعی می‌کند بفهمد کامیلو کیست.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/15-reaction-cameron-flex-eris.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/15-reaction-cameron-flex-eris.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>کمرون بازویش را سفت می‌کند، در حالی که اریسِ چشم‌بسته آن را لمس می‌کند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/86-round2-eris-feels-cameron-abs.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/86-round2-eris-feels-cameron-abs.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>اریس چشم‌بسته شکم کمرون را لمس می‌کند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/87-round2-eris-feels-camilo-biceps.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/87-round2-eris-feels-camilo-biceps.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>اریس همین کار را با شکم کامیلو هم می‌کند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/85-round2-eris-feels-camilo-back.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/85-round2-eris-feels-camilo-back.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>اریس چشم‌بسته عضلات پشت کامیلو را لمس می‌کند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/89-round2-eris-feels-cameron-arms.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/89-round2-eris-feels-cameron-arms.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>حالا نوبت بازوهای کمرون است، اریس هنوز در حال تصمیم گرفتن.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/16-reaction-cameron-makes-eris-laugh.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/16-reaction-cameron-makes-eris-laugh.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>کمرون یک شوخی می‌کند که می‌گیرد. اریس می‌خندد، کامیلو نگاه می‌کند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/13-reaction-camilo-shocked.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/13-reaction-camilo-shocked.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>واکنش کامیلو به یکی از جواب‌های اریس.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/12-reaction-camilo-funny.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/12-reaction-camilo-funny.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>کامیلو در حال جواب دادن، یک شکلک می‌سازد.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/90-round2-cameron-abs.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/90-round2-cameron-abs.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>کمرون به تنهایی شکمش را نشان می‌دهد.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/91-round2-camilo-abs.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/91-round2-camilo-abs.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>کامیلو هم شکمش را نشان می‌دهد.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/92-round2-both-shirtless.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/92-round2-both-shirtless.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>هر دو پیراهنشان درآمده. اریس هنوز چشم‌بسته.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/78-round2-cameron-camilo.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/78-round2-cameron-camilo.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>کمرون و کامیلو، دو گزینهٔ روی میز.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/88-round2-trio.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/88-round2-trio.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>اریس، کمرون، کامیلو. این مثلث.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/05-reveal-eris-points-cameron.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/05-reveal-eris-points-cameron.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>وقتی پرسیدند کدام یکی. اریس اشاره کرد. کمرون.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/02-reveal-eris-shakes-camilo.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/02-reveal-eris-shakes-camilo.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>چشم‌بند برداشته شد. اریس برای اولین بار کامیلو را می‌بیند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/03-reveal-cameron-extends-hand.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/03-reveal-cameron-extends-hand.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>دست کمرون دراز شد، در همان لحظه‌ای که توانست او را ببیند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/77-round2-end-of-round.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/77-round2-end-of-round.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>کمرون و کامیلو بعد از دور دوم از صحنه خارج می‌شوند.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ ROUND THREE: THE TWIST ═══════════ -->
+<section class="chapter" id="round-three">
+  <div class="chapter-header">
+    <span class="chapter-eyebrow">فصل چهارم از پنج</span>
+    <h2>دور سوم: چرخش غیرمنتظره</h2>
+    <p>یک دختر را از میان تماشاگران به صحنه آوردیم. یک پسر هم در گرین‌روم منتظر بود. این دور خودش را برعکس کرد: قبل از برداشتن چشم‌بندها، دختر گفت نه و پسر گفت بله. بعد از برداشتن چشم‌بندها، جواب‌ها جابه‌جا شد.</p>
+  </div>
+  <div class="container">
+    <div class="board">
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/36-round3-naomi-on-stage.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/36-round3-naomi-on-stage.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>نائومی را از بین تماشاگران بیرون کشیدیم. دور سوم شروع شد.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/101-round3-jimmy-naomi-qudsi-alt.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/101-round3-jimmy-naomi-qudsi-alt.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>یک زاویهٔ دیگر از دور سوم. جیمی و نائومی روی صحنه با قدسی.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/37-round3-jimmy-naomi-qudsi.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/37-round3-jimmy-naomi-qudsi.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>جیمی، نائومی، مجری ما. ترکیب دور سوم.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/38-round3-qudsi-asks-both.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/38-round3-qudsi-asks-both.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>همان سوال قدسی که جواب‌هایشان را برعکس کرد.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/102-round3-jimmy-naomi-may.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/102-round3-jimmy-naomi-may.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>دور سوم روی صحنه، می هم در پس‌زمینه پیداست.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/100-round3-naomi-pitching.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/100-round3-naomi-pitching.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>نائومی بعد از رو شدن چهره‌ها، تلاش می‌کند جیمی را قانع کند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/39-round3-thumbs-flip.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/39-round3-thumbs-flip.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>چرخش دور سوم. قبل از برداشتن چشم‌بند او گفت نه، بعدش گفت بله. جیمی برعکس عمل کرد.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ THE NIGHT AROUND THE ROUNDS ═══════════ -->
+<section class="chapter" id="around">
+  <div class="chapter-header">
+    <span class="chapter-eyebrow">فصل پنجم از پنج</span>
+    <h2>حاشیه‌های شب</h2>
+    <p>هر اتفاقی که بیرون از صحنه افتاد. آری که با تماشاگران مصاحبه می‌کرد و شعبده‌بازی می‌کرد، واکنش‌های جمعیت، بار نوشیدنی غیرالکلی با یخ‌های ال‌ای‌دی، شمع‌های روی میزهای بلند، پشمک بین دورها، و دستبندی که موقع ورود به همه دادیم.</p>
+  </div>
+  <div class="container">
+    <div class="board">
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/110-ari-interviews-1.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/110-ari-interviews-1.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>آری در حال انجام مصاحبه‌های قبل از نمایش، در حیاط پشتی.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/111-ari-interviews-girls.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/111-ari-interviews-girls.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>آری در حال مصاحبه با گروهی از اولین مهمان‌ها.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/112-audience-laughing-ari.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/112-audience-laughing-ari.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>آری قبل از این که حتی درها باز شود، حسابی همه را خنداند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/35-details-ari-magic.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/35-details-ari-magic.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>آری بین دورها یک شعبده با کارت اجرا می‌کند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/19-audience-raising-hands.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/19-audience-raising-hands.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>بخش پرسش و پاسخ. تماشاگران ما کلی سوال داشتند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/21-audience-holding-laughter.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/21-audience-holding-laughter.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>تماشاگران ما سعی می‌کنند نخندند، در حالی که یکی از شرکت‌کننده‌ها از خنده ترکید.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/18-audience-laughing.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/18-audience-laughing.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>تماشاگران ما از چیزی روی صحنه، از خنده روده‌بر شدند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/114-audience-laughing-group.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/114-audience-laughing-group.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>خنده‌های تماشاگران از ردیف آخر.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/115-audience-talking.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/115-audience-talking.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>صحبت‌های دوستانه در حیاط پشتی، بین دورهای نمایش.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/123-audience-girl-guy-laughing.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/123-audience-girl-guy-laughing.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>دو تا از مهمان‌های همیشگی ما، که شاید حتی بیشتر از خود شرکت‌کننده‌ها لذت بردند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/124-audience-guy-talking-girls.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/124-audience-guy-talking-girls.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>یکی از تماشاگران بین دورها مشغول بازی خودش است.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/122-audience-couple.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/122-audience-couple.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>یک زوج بین تماشاگران، که همه چیز را بدون چشم‌بند تماشا می‌کردند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/113-audience-individual.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/113-audience-individual.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>یک چهره از بین تماشاگران، در میانهٔ خنده.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/116-audience-group-1.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/116-audience-group-1.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>نمای باز از تماشاگران، در میانهٔ یک دور.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/117-audience-group-2.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/117-audience-group-2.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>چهرهٔ تماشاگران، همه رو به صحنه.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/118-audience-group-3.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/118-audience-group-3.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>نمای کناری از تماشاگران ما، در میانهٔ یک دور.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/119-audience-looking-stage.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/119-audience-looking-stage.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>نگاه‌ها به سمت صحنه، یک دور در جریان است.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/120-audience-overall.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/120-audience-overall.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>تمام حیاط پشتی ما در یک قاب.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/121-audience-belly-bar.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/121-audience-belly-bar.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>دوستان دور یکی از میزهای بلند ما جمع شده‌اند.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/126-ari-ynessa-audience.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/126-ari-ynessa-audience.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>آری و اینسا، یک جایی بین تماشاگران.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/125-alex-at-bar.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/125-alex-at-bar.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>الکس کنار بار ما، البته بدون نوشیدنی الکلی.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/20-audience-cotton-candy.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/20-audience-cotton-candy.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>آخرین پشمک‌های ما بین دورها.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/30-details-led-drinks.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/30-details-led-drinks.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>در هر نوشیدنی که ریختیم، یخ‌های ال‌ای‌دی بود. بار بدون الکل، تمام شب.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/31-details-belly-bar-candle.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/31-details-belly-bar-candle.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>روی هر میز بلندی که چیدیم، یک شمع گذاشتیم. تعدادشان کم نبود.</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <div class="photo"><picture><source type="image/webp" srcset="https://dateflo.com/images/blind-date-show/thumb/32-details-wristband.webp"><img src="https://dateflo.com/images/blind-date-show/thumb/32-details-wristband.jpg" alt="" loading="lazy" decoding="async"></picture></div>
+        <figcaption>دستبندی که موقع ورود به همه دادیم.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="نمایشگر عکس">
+  <button class="lb-close" id="lightboxClose" aria-label="بستن عکس">&times;</button>
+  <img id="lightboxImage" alt="">
+  <div class="lb-caption" id="lightboxCaption"></div>
+</div>
+<script>
+(function () {
+  var lb = document.getElementById('lightbox');
+  var imgEl = document.getElementById('lightboxImage');
+  var capEl = document.getElementById('lightboxCaption');
+  var closeBtn = document.getElementById('lightboxClose');
+
+  function open(src, alt, cap) {
+    imgEl.src = src;
+    imgEl.alt = alt || '';
+    capEl.textContent = cap || '';
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function close() {
+    lb.classList.remove('open');
+    imgEl.src = '';
+    document.body.style.overflow = '';
+  }
+  lb.addEventListener('click', function (e) {
+    if (e.target === lb || e.target === closeBtn) close();
+  });
+  closeBtn.addEventListener('click', close);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && lb.classList.contains('open')) close();
+  });
+  document.querySelectorAll('.polaroid').forEach(function (p) {
+    p.addEventListener('click', function () {
+      var img = p.querySelector('img');
+      var cap = p.querySelector('figcaption');
+      if (!img) return;
+      // Lightbox loads the higher-res /full/ JPEG instead of the displayed thumb
+      var fullSrc = img.src.replace('/thumb/', '/full/');
+      open(fullSrc, img.alt, cap ? cap.textContent : '');
+    });
+  });
+})();
+</script>
+
+<footer>
+  <div class="footer-logo" style="margin-bottom:8px">DateFlo</div>
+  <p style="font-size:.85rem;color:var(--text-muted);text-align:center">&copy; ۲۰۲۶ DateFlo</p>
+</footer>
+
+</body>
+</html>
